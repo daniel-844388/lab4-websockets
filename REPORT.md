@@ -2,22 +2,22 @@
 
 ## Description of Changes
 [Detailed description of all changes made]
+- Completar el test verificando el número de mensajes y el contenido recibidos del servidor.
+- Completar el onMessage() para que envíe un mensaje al servidor tras recibir los tres primeros por defecto del servidor y así recibir un cuarto mensaje del servidor como requiere el test.
 
 ## Technical Decisions
-[Explanation of technical choices made]
+- Se envía un mensaje concreto con respuesta fija y conocida para poder comprobar en el test.
 
 ## Learning Outcomes
-[What you learned from this assignment]
+Implementación básica y tests de websockets.
 
 ## AI Disclosure
 ### AI Tools Used
-- [List specific AI tools used]
+- Ninguna
 
 ### AI-Assisted Work
-- [Describe what was generated with AI assistance]
-- [Percentage of AI-assisted vs. original work]
-- [Any modifications made to AI-generated code]
+- Nada
 
 ### Original Work
-- [Describe work done without AI assistance]
-- [Your understanding and learning process]
+- Toda la implementación es propia.
+- Proceso de aprendizaje mediante entendiendo el código y probando con un cliente websocket a intercambiar mensajes con el servidor.
